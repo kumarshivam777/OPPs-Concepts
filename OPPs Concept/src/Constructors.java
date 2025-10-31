@@ -4,7 +4,7 @@ public class Constructors {
         int age;
         String dob;
 
-        Student(String n, int a, String d){ //default constructor
+        Student(String n, int a, String d){ //default constructor (It's knows as setter)
             name = n;
             age = a;
             dob = d;

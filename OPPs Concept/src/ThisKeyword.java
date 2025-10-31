@@ -12,7 +12,7 @@ public class ThisKeyword {
             this.mobileNo = mobileNo;
         }
         void print(){
-            System.out.print(name + "\n" + age + "\n" + mobileNo);
+            System.out.print(this.name + "\n" + this.age + "\n" + this.mobileNo);
         }
     }
     public static void main(String[] args) {
